@@ -1,0 +1,41 @@
+FINANCIAL CONTAGION NETWORK
+FINAL RESULTS REPORT
+
+======================================================================
+TRADFI vs TRADFI + DEFI
+======================================================================
+
+                Metric  TradFi_Only  TradFi_DeFi  Difference
+Leading Singular Value     0.258234     0.215532   -0.042702
+      Network Strength     0.187536     0.187621    0.000084
+   Systemic Mode Score     0.265423     0.169946   -0.095477
+
+======================================================================
+HISTORICAL EVENT VALIDATION
+======================================================================
+
+              Event Event_Date Analysis_Date  TradFi_Normalized_SV  TradFi_DeFi_Normalized_SV  Normalized_SV_Change  TradFi_Network_Strength  TradFi_DeFi_Network_Strength  Network_Strength_Change  TradFi_Systemic_Mode  TradFi_DeFi_Systemic_Mode  Systemic_Mode_Change
+Terra/LUNA Collapse 2022-05-12    2022-05-12              0.256362                   0.244192             -0.012170                 0.182586                      0.211593                 0.029007              0.249768                   0.184939             -0.064829
+       FTX Collapse 2022-11-11    2022-11-11              0.270017                   0.235909             -0.034107                 0.202744                      0.215142                 0.012398              0.263995                   0.178982             -0.085013
+         USDC Depeg 2023-03-11    2023-03-10              0.263670                   0.227923             -0.035747                 0.195764                      0.214024                 0.018260              0.252827                   0.180584             -0.072243
+
+======================================================================
+CONTAGION CENTRALITY
+======================================================================
+
+              Asset  Mean_Centrality  Maximum_Centrality  Minimum_Centrality  Rank
+    Ethereum_RETURN         0.967954            1.000000            0.693775     1
+         BNB_RETURN         0.928016            1.000000            0.639455     2
+     Bitcoin_RETURN         0.925204            1.000000            0.734721     3
+      Solana_RETURN         0.908557            1.000000            0.692506     4
+    LIDO_TVL_GROWTH         0.907041            1.000000            0.786956     5
+ETHEREUM_TVL_GROWTH         0.901408            1.000000            0.674756     6
+      Ripple_RETURN         0.898886            1.000000            0.667607     7
+    AAVE_TVL_GROWTH         0.871445            1.000000            0.619369     8
+      S&P500_RETURN         0.810108            1.000000            0.468740     9
+ UNISWAP_TVL_GROWTH         0.806409            0.978600            0.653796    10
+      NASDAQ_RETURN         0.797897            1.000000            0.384087    11
+   Chainlink_RETURN         0.795233            0.956585            0.636911    12
+         DAX_RETURN         0.742993            0.945517            0.377787    13
+     FTSE100_RETURN         0.721579            0.933543            0.345405    14
+     NIFTY50_RETURN         0.610388            0.923187            0.263041    15
